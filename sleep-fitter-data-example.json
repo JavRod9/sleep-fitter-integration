@@ -1,0 +1,51 @@
+{
+  "tableName": "string",
+  "firstName": "string",
+  "userEmail": "string",
+  "responseId": "recLJBHCaXrsJdzTC",
+  "sleepFitterScore": {
+    "score": 26,
+    "percentage": 20,
+    "summary": "String",
+    "category": "Poor Sleep"
+  },
+  "statisticalAnalysis": {
+    "ageRangeAverageScore": 83.92,
+    "roleAverageScore": 66
+  },
+  "sleepQuality": {
+    "overallRating": "Fairly good",
+    "summary": "String"
+  },
+  "healthConditions": {
+    "hasSleepApnea": true,
+    "hasGERD": true,
+    "otherConditions": "boolean"
+  },
+  "sleepDuration": {
+    "currentHours": 2,
+    "recommendedHoursRange": "7-9 hours"
+  },
+  "suggestionsForImprovement": [
+    {
+      "category": "Sleep Duration",
+      "suggestions": ["String"]
+    },
+    {
+      "category": "Medical Management",
+      "suggestions": ["String", "String"]
+    },
+    {
+      "category": "Temperature Regulation",
+      "suggestions": ["String", "String", "String"]
+    },
+    {
+      "category": "Sleep Environment Review",
+      "suggestions": ["String"]
+    },
+    {
+      "category": "Any other suggestion",
+      "suggestions": ["String"]
+    }
+  ]
+}
