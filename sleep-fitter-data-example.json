@@ -17,11 +17,11 @@
     "overallRating": "Fairly good",
     "summary": "String"
   },
-  "healthConditions": {
-    "hasSleepApnea": true,
-    "hasGERD": true,
-    "otherConditions": "boolean"
-  },
+  "healthConditions": [
+      "Sleep Apnea",
+      "GERD",
+      "..."
+  ],
   "sleepDuration": {
     "currentHours": 2,
     "recommendedHoursRange": "7-9 hours"
