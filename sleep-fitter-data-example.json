@@ -4,14 +4,14 @@
   "userEmail": "string",
   "responseId": "recLJBHCaXrsJdzTC",
   "sleepFitterScore": {
-    "score": 26,
-    "percentage": 20,
+    "score": "26",
+    "percentage": "20",
     "summary": "String",
     "category": "Poor Sleep"
   },
   "statisticalAnalysis": {
-    "ageRangeAverageScore": 83.92,
-    "roleAverageScore": 66
+    "ageRangeAverageScore": "83.92",
+    "roleAverageScore": "66"
   },
   "sleepQuality": {
     "overallRating": "Fairly good",
@@ -23,7 +23,7 @@
       "..."
   ],
   "sleepDuration": {
-    "currentHours": 2,
+    "currentHours": "2",
     "recommendedHoursRange": "7-9 hours"
   },
   "suggestionsForImprovement": [
