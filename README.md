@@ -28,13 +28,13 @@ This document provides a detailed explanation of each field within the `Sleep Fi
 
 This object encapsulates all details related to the participant's overall Sleep Fitter™ Score.
 
-* **`score`** (integer):
-    * **Description**: The raw numerical score obtained by the participant from the Sleep Fitter™ survey.
-    * **Example Value**: `26`
+* **`score`** (string):
+    * **Description**: The score obtained by the participant from the Sleep Fitter™ survey.
+    * **Example Value**: `"26"`
 
-* **`percentage`** (integer):
+* **`percentage`** (string):
     * **Description**: The participant's Sleep Fitter™ score expressed as a percentage. This provides a quick, normalized view of their sleep health.
-    * **Example Value**: `20`
+    * **Example Value**: `"20"`
 
 * **`summary`** (string):
     * **Description**: This field contains the AI-generated summary of the participant's overall sleep survey.
@@ -50,13 +50,13 @@ This object encapsulates all details related to the participant's overall Sleep 
 
 This object provides statistical comparisons of the participant's score against relevant demographics or groups.
 
-* **`ageRangeAverageScore`** (number):
+* **`ageRangeAverageScore`** (string):
     * **Description**: The average Sleep Fitter™ score for respondents within the participant's age range (e.g., 52). 
-    * **Example Value**: `83.92`
+    * **Example Value**: `"83.92"`
 
-* **`roleAverageScore`** (number):
+* **`roleAverageScore`** (string):
     * **Description**: The average Sleep Fitter™ score for individuals in the participant's professional role or industry (e.g., Business and Finance).
-    * **Example Value**: `66`
+    * **Example Value**: `"66"`
 
 ---
 
@@ -88,9 +88,9 @@ This field lists specific health conditions reported by the participant that mig
 
 This object provides details about the participant's sleep duration.
 
-* **`currentHours`** (number):
+* **`currentHours`** (string):
     * **Description**: The approximate number of hours the participant currently sleeps per night.
-    * **Example Value**: `2`
+    * **Example Value**: `"2"`
 
 * **`recommendedHoursRange`** (string):
     * **Description**: The generally recommended range of sleep hours for adults, providing a target for improvement.
